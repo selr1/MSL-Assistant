@@ -1,5 +1,6 @@
 ## INtroduction
-#### Hardware
+
+### Environment
 Processor: Intel Core i5-1135G7 (11th Gen).
 
 RAM: 16GB DDR4.
@@ -12,10 +13,11 @@ Operating Systems: Arch Linux
 
 ## SEtup
 
-#### Folder structure
+### Folder Structure
 
 ```
 # To replicate our current setup, the folder structure must look like this :
+
 MediSign/
 ├── CSVs/                 # Folder for extracted landmark data
 ├── Datasets/             # Source images (Words, V1, V2)
@@ -24,7 +26,9 @@ MediSign/
 
 ```
 
-```
+### Run Instructions
+
+```bash
 
 # Clone the repository
 git clone https://github.com/selr1/medisign.git
@@ -71,7 +75,7 @@ approaches, both algorithms achieved >98% accuracy.
       | RF | n=150 | 98.12 |
       | SVM | C=0.5 | 97.24 |
       | SVM | C=1.5 | 98.69 |
-#### Tuning Graphs - plotted using [graph.py](Scripts/graph.py)
+### Tuning Graphs - plotted using [graph.py](Scripts/graph.py)
 
 RF
 
