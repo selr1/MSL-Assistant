@@ -12,6 +12,18 @@ Operating Systems: Arch Linux
 
 ## SEtup
 
+## Folder structure
+- To replicate our current setup, the folder structure must look like this :
+
+```
+MediSign/
+├── CSVs/                 # Folder for extracted landmark data
+├── Datasets/             # Source images (Words, V1, V2)
+├── Scripts/              # All python scripts and saved models
+└── requirements.txt      # Project dependencies
+
+```
+
 ```
 
 # Clone the repository
@@ -27,17 +39,7 @@ conda activate MediSign_MSL
 pip install -r requirements.txt
 
 ```
-## Folder structure
-- To replicate our current setup, the folder structure must look like this :
 
-```
-MediSign/
-├── CSVs/                 # Folder for extracted landmark data
-├── Datasets/             # Source images (Words, V1, V2)
-├── Scripts/              # All python scripts and saved models
-└── requirements.txt      # Project dependencies
-
-```
 ## Requirements status
 
 #### a) Datasets Selection & Expansion
@@ -83,6 +85,8 @@ SVM
 ### Evaluations
 
 #### Confusion Matrix
+
+svm_modelc1.5
 
 ![Matrix](Scripts/confusion_matrix.png)
 
