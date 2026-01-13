@@ -46,7 +46,7 @@ and [Malaysian Sign Language (MSL) Image Dataset](https://www.kaggle.com/dataset
 - Preprocess:
   1. [prep.py](Scripts/prep.py) uses recursive search to look for image files, take the parent folder name and use it as the ground truth.
   2. Features are extracted using the MediaPipe Hands module to extract landmarks.
-
+- [validator.py](Scripts/prep.py) was used to determine the validity of obtained CSV ([preprocessed.csv](CSVs/preprocessed.csv))
 #### b) Algorithm Implementation
 - [trainer.py](Scripts/trainer.py) combined both Random Forest (RF) and Support Vector Machine (SVM) into a single training module. Despite the different mathematical 
 approaches, both algorithms achieved >98% accuracy.
