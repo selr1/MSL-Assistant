@@ -53,10 +53,10 @@ approaches, both algorithms achieved >98% accuracy.
   2. Results :
       | Algorithm | Parameter | Accuracy (%) |
       | ---       | ---      | --- |
-      | RF | n=50 | |
-      | RF | n=150 | |
-      | SVM | C=0.5 | |
-      | SVM | C=1.5 | |
+      | RF | n=50 | 98.14 |
+      | RF | n=150 | 98.12 |
+      | SVM | C=0.5 | 97.24 |
+      | SVM | C=1.5 | 98.69 |
 - 
 # NOtes
 #### Training the AI with 2 datasets that displays different type of handsigns was proven to be confusing. 

@@ -1,2 +1,4 @@
-*.jpg
 *.pkl
+Datasets/**/*.jpg
+__pycache__/
+*.py[cod]

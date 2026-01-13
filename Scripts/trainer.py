@@ -33,14 +33,14 @@ def train_and_compare():
 
     # 1. Random Forest Implementation
     print("\nTraining Random Forest...")
-    rf = RandomForestClassifier(n_estimators=100, random_state=42)
+    rf = RandomForestClassifier(n_estimators=150, random_state=42)
     rf.fit(X_train_scaled, y_train)
     rf_pred = rf.predict(X_test_scaled)
     rf_acc = accuracy_score(y_test, rf_pred)
 
     # 2. SVM Implementation
     print("Training SVM (RBF Kernel)...")
-    svm = SVC(kernel='rbf', probability=True, random_state=42)
+    svm = SVC(C=1.5, kernel='rbf', probability=True, random_state=42)
     svm.fit(X_train_scaled, y_train)
     svm_pred = svm.predict(X_test_scaled)
     svm_acc = accuracy_score(y_test, svm_pred)
