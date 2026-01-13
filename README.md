@@ -80,6 +80,7 @@ SVM
 
 ![svmtuniing](Scripts/svm_tuning.png)
 
+### Evaluations
 
 #### Confusion Matrix
 
