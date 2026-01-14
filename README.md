@@ -42,6 +42,10 @@ conda activate MediSign_MSL
 # Install all required libraries
 pip install -r requirements.txt
 
+# Run the demo
+cd Scripts/
+python demo.py
+
 ```
 
 ## Requirements status
