@@ -1,5 +1,6 @@
-## INtroduction
-
+## INtroduction - MediSign
+![ss](2026-01-14-082635_hyprshot.png)
+### Models
 ```svm_modelc1.5``` is the best model. When running the demo press S to swtich between models.
 To produce ```svm_modelc1.5```, C value in ```trainer.py```  must be 1.5. 
 ```
