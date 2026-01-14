@@ -1,5 +1,11 @@
 ## INtroduction
 
+```svm_modelc1.5``` is the best model. When running the demo press S to swtich between models.
+To produce ```svm_modelc1.5```, C value in ```trainer.py```  must be 1.5. 
+```
+svm = SVC(C=1.5, kernel='rbf', probability=True, random_state=42)
+```
+
 ### Environment
 Processor: Intel Core i5-1135G7 (11th Gen).
 
@@ -34,10 +40,10 @@ MediSign/
 git clone https://github.com/selr1/medisign.git
 
 # Create new conda environment with Python 3.10
-conda create -n MediSign_MSL python=3.10 -y
+conda create -n medisign python=3.10 -y
 
 # Activate environment in Fish shell
-conda activate MediSign_MSL
+conda activate medisign
 
 # Install all required libraries
 pip install -r requirements.txt
